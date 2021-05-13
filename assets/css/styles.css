@@ -31,6 +31,14 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 35px 100px 0;
+  -webkit-animation: 2s .5s forwards fadein;
+  opacity: 0;
+}
+
+@keyframes fadein {
+  100% {
+    opacity: 1;
+  }
 }
 
 header h2 {
